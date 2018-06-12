@@ -1,7 +1,6 @@
 PREFIX = /usr/local
 
-BINPROGS = \
-	ubuntu-chroot
+BINPROGS = arrowroot
 
 BASH = bash
 
