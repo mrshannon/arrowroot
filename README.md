@@ -1,7 +1,10 @@
-# Arch Install Scripts
+# Ubuntu Easy Chroot
 
-This is a small suite of scripts aimed at automating some menial
-tasks when installing [Arch Linux](https://www.archlinux.org).
+Provides `ubuntu-chroot` which makes entering a chroot easier by automatically
+mounting (and unmounting) API filesystems like `/proc`, `/dev`, and `/sys` and
+by ensuring that `/etc/resolve.conf` is populated inside the chroot so
+networking does not fail.  `ubuntu-chroot` is a fork of `arch-chroot` from the
+`arch-install-scripts` at [https://git.archlinux.org/arch-install-scripts.git].
 
 ## Requirements
 
@@ -13,3 +16,12 @@ tasks when installing [Arch Linux](https://www.archlinux.org).
 ## License
 
 See COPYING for details.
+
+## Installing
+
+To install `ubuntu-chroot` simply run:
+
+```
+$ make
+# make install
+```
