@@ -1,4 +1,4 @@
-# Easy Chroot
+# ArrowRoot (Easy Chroot)
 
 Provides `arrowroot` which makes entering a chroot easier by automatically
 mounting (and unmounting) API filesystems like `/proc`, `/dev`, and `/sys` and
