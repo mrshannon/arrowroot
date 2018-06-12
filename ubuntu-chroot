@@ -2,7 +2,7 @@
 
 shopt -s extglob
 
-out() { printf "$1 $2\n" "${@:3}"; }
+out() { printf "%s %s\\n" "$1" "$2" "${@:3}"; }
 error() { out "==> ERROR:" "$@"; } >&2
 msg() { out "==>" "$@"; }
 msg2() { out "  ->" "$@";}
