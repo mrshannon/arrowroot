@@ -13,7 +13,7 @@ networking does not fail.  `ubuntu-chroot` is a fork of `arch-chroot` from the
 * util-linux (>= 2.23)
 * POSIX awk
 * bash (>= 4.1)
-* shellcheck (only for test target)
+* shellcheck (only for check target)
 
 ## License
 

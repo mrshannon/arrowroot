@@ -7,7 +7,7 @@ BASH = bash
 
 all: $(BINPROGS)
 
-test: all
+check: all
 	@for f in $(BINPROGS); do bash -O extglob -n $$f; done
 	@for f in $(BINPROGS); do shellcheck $$f; done
 
